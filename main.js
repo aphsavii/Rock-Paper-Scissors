@@ -8,7 +8,7 @@ const run = (value) => {
     if (value == computer) {
         result.innerText = "It's a draw";
 
-        choosings.innerText = `You : ${value}  |  Computer :${computer}`;
+        choosings.innerText = `You : ${value}  |  Computer : ${computer}`;
 
         // console.log("draw " + computer);
     }
